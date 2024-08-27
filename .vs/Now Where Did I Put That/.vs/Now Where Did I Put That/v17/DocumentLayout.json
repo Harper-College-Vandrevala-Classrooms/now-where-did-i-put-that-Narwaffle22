@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\D242U18\\Documents\\GitHub\\now-where-did-i-put-that-Narwaffle22\\.vs\\now-where-did-i-put-that-Narwaffle22\\Now Where Did I Put That\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE23E7AA-083B-459F-9530-0E773019A3C0}|Now Where Did I Put That\\Now Where Did I Put That.vcxproj|C:\\Users\\D242U18\\Documents\\GitHub\\now-where-did-i-put-that-Narwaffle22\\.vs\\now-where-did-i-put-that-Narwaffle22\\Now Where Did I Put That\\Now Where Did I Put That\\Now Where Did I Put That.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE23E7AA-083B-459F-9530-0E773019A3C0}|Now Where Did I Put That\\Now Where Did I Put That.vcxproj|solutionrelative:Now Where Did I Put That\\Now Where Did I Put That.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Now Where Did I Put That.cpp",
+              "DocumentMoniker": "C:\\Users\\D242U18\\Documents\\GitHub\\now-where-did-i-put-that-Narwaffle22\\.vs\\now-where-did-i-put-that-Narwaffle22\\Now Where Did I Put That\\Now Where Did I Put That\\Now Where Did I Put That.cpp",
+              "RelativeDocumentMoniker": "Now Where Did I Put That\\Now Where Did I Put That.cpp",
+              "ToolTip": "C:\\Users\\D242U18\\Documents\\GitHub\\now-where-did-i-put-that-Narwaffle22\\.vs\\now-where-did-i-put-that-Narwaffle22\\Now Where Did I Put That\\Now Where Did I Put That\\Now Where Did I Put That.cpp",
+              "RelativeToolTip": "Now Where Did I Put That\\Now Where Did I Put That.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-27T21:05:08.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

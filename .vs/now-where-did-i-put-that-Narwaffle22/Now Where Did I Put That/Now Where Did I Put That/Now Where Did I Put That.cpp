@@ -2,20 +2,62 @@
 //
 
 #include <iostream>
+#include <cassert>
+#include <string>
 using namespace std;
+
+int findWhereIPutThat(string search, string key) {
+	//if (!isCaseSensitive) {
+	//	key = tolower(key);
+	//}
+	
+	if (key.length() <= 1) {
+		for (int i = 0; i < search.length(); i++) {
+			string s{ search[i] };
+			if (s == key) {
+				return i;
+			}
+		}
+	} else {
+		for (int i = 0; i < search.length(); i++) {
+			string s = "";
+			for (int j = 0; j < key.length(); j++) {
+				if (i+j < search.length()) {
+					s += { search[i+j] };
+				}
+				
+			}
+			if (s == key) {
+				return i;
+			}
+		}
+	}
+	return -1;
+}
+
+int findWhereIPutThat(string search, char key) {
+	for (int i = 0; i < search.length(); i++) {
+		if (search[i] == key) {
+			return i;
+		}
+	}
+	return -1;
+}
 
 int main()
 {
-	cout << "Hello World!\n";
+	assert(findWhereIPutThat("something","e") == 3);
+	cout << "check 1\n";
+	assert(findWhereIPutThat("something", 'e') == 3);
+	cout << "check 2\n";
+	assert(findWhereIPutThat("The quick brown fox", 'e') == 2);
+	cout << "check 3\n";
+	assert(findWhereIPutThat("The quick brown fox", "e") == 2);
+	cout << "check 4\n";
+	assert(findWhereIPutThat("The quick brown fox", ' ') == 3);
+	cout << "check 5\n";
+	assert(findWhereIPutThat("The quick brown fox", "quick") == 4);
+	cout << "check 6\n";
+	assert(findWhereIPutThat("The quick brown fox", "quiet") == -1);
+	cout << "check 7\n";
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
